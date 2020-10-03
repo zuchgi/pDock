@@ -1,0 +1,15 @@
+{
+    "time": {
+        "telemetry": 2,
+        "reconnect": 20,
+        "report": 1
+    },
+    "dev":[
+        {
+            "DeviceName":"test0",
+            "port":"COM5",
+            "baudrate": 115200,
+            "connectionString": "HostName=CXL-IOT.azure-devices.net;DeviceId=DEV01;SharedAccessKey=s3cvZKCvNHIfHAsllfZxHOX0tiiwqXkKkEYXFC0ehPo="
+        }
+    ]
+}
