@@ -3,7 +3,7 @@
 import json
 
 # 获取用户设置
-setting = json.load(open("config.json", encoding='utf-8'))
+setting = json.load(open("/home/pi/pDock/config.json", encoding='utf-8'))
 
 
 def get_dev():
