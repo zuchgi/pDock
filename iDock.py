@@ -206,7 +206,7 @@ class BaseDevice(object):
 
     def update(self):
         try:
-            utc_tz = pytz.timezone('UTC')
+            utc_tz = pytz.timezone('Asia/Shanghai')
             _time = datetime.datetime.now(tz=utc_tz).isoformat()
             self._read_data2list()
             self._data_decode_vin()
